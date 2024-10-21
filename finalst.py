@@ -15,7 +15,7 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 PRIMARY_COLOR = "#4CAF50"
 SECONDARY_COLOR = "#8BC34A"
 BACKGROUND_COLOR = "#F1F8E9"
-TEXT_COLOR = "#33691E"
+TEXT_COLOR = "#000000"
 
 # Initialize session state for tab control and disease info
 if 'active_tab' not in st.session_state:
