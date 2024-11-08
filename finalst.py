@@ -24,7 +24,7 @@ if 'disease_info' not in st.session_state:
     st.session_state.disease_info = None
 
 # Page config
-st.set_page_config(page_title="Agricultural Analysis Hub", page_icon="🌾", layout="wide")
+st.set_page_config(page_title="AgriVision", page_icon="🌾", layout="wide")
 
 # Custom CSS
 st.markdown(f"""
@@ -130,7 +130,7 @@ def switch_to_farming_assistant(disease_name):
     st.rerun()
 
 # Main App
-st.title("Agricultural Analysis Hub 🌾")
+st.title("AgriVision 🌾")
 st.markdown("---")
 
 # Create tabs
@@ -288,4 +288,4 @@ with tab4:
 
 # Footer
 st.markdown("---")
-st.markdown("Powered by Agricultural Analysis Hub 🌾 | Helping farmers grow smarter")
+st.markdown("Powered by AgriVision 🌾 | Helping farmers grow smarter")
